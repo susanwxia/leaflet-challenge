@@ -21,6 +21,7 @@ function createFeatures(earthquakeData) {
     return magnitude*10000;
   };
 
+  // Define a function for circle color showing the minimum depth of earthquake
   function getColor(d) {
     return d > 90  ? '#E31A1C' :
            d > 70  ? '#FC4E2A' :
